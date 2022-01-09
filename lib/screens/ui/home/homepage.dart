@@ -26,7 +26,7 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: Colors.black,
       drawer: Padding(
         padding: const EdgeInsets.only(top: 60),
-        child: Container(
+        child: Container(height: h,
           width: 200,
           child: Drawer(
             child: Column(
