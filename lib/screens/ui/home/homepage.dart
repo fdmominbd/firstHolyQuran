@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
         width: w,
         decoration: BoxDecoration(
             image: DecorationImage(
-                image: AssetImage('assets/images/')
+                image: AssetImage('assets/images/qq1.jpg')
             )
         ),
 

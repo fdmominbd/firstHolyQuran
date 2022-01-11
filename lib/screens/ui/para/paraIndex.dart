@@ -24,12 +24,13 @@ class _ParaIndexState extends State<ParaIndex> {
       ),
       backgroundColor: Colors.deepPurple,
       body: Container(
-        // height: h,
-        // width: w,
+        height: h,
+        width: w,
         decoration: BoxDecoration(
             image: DecorationImage(
-                image: AssetImage('')
-            )
+                image: AssetImage('assets/images/q22.jpg'),
+                fit: BoxFit.cover
+            ),
         ),
         child: Column(
           children: [
@@ -43,7 +44,7 @@ class _ParaIndexState extends State<ParaIndex> {
                         width: w*0.75,
                         child: ElevatedButton(
                             style: ElevatedButton.styleFrom(
-                                primary: Colors.black54,
+                                primary: Colors.black26,
                                 shape: RoundedRectangleBorder(
                                     side: BorderSide(color: Colors.white)
                                 )

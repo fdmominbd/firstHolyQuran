@@ -22,7 +22,16 @@ class _SurahIndexState extends State<SurahIndex> {
         centerTitle: true,
         title: Text('SURAH INDEX'),
       ),
+      backgroundColor: Colors.white,
       body: Container(
+        height: h,
+        width: w,
+        decoration: BoxDecoration(
+            image: DecorationImage(
+                image: AssetImage('assets/images/q11.png'),
+                    fit: BoxFit.cover
+            )
+        ),
         child: Column (
           children: [
             Expanded(
@@ -31,30 +40,33 @@ class _SurahIndexState extends State<SurahIndex> {
                   itemBuilder: (context,index){
 
                     return Center(
-                      child: Container(
-                        width: w*0.75,
-                        child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(
-                                primary: Colors.black54,
-                                shape: RoundedRectangleBorder(
-                                    side: BorderSide(color: Colors.white)
-                                )
-                            ),
-                            onPressed: (){
-                              Navigator.push(context,
-                                  MaterialPageRoute(builder: (context)=>
-                                      Surah(customSurah: allSIList.allSurah[index],indexPosition: index,)));
-                            },
-                            child: Center(
-                              child: Column(
-                                children: [
-                                  Text(allSIList.surahS[index],style: TextStyle(
-                                      fontSize: 25, color: Colors.orange),),
-                                  Text(allSIList.surahName[index],style: TextStyle(
-                                      fontSize: 15, color: Colors.greenAccent),),
-                                ],
+                      child: Padding(
+                        padding: const EdgeInsets.all(1.0),
+                        child: Container(
+                          width: w*0.75,
+                          child: ElevatedButton(
+                              style: ElevatedButton.styleFrom(
+                                  primary: Colors.black26,
+                                  shape: RoundedRectangleBorder(
+                                      side: BorderSide(color: Colors.white)
+                                  )
                               ),
-                            )),
+                              onPressed: (){
+                                Navigator.push(context,
+                                    MaterialPageRoute(builder: (context)=>
+                                        Surah(customSurah: allSIList.allSurah[index],indexPosition: index,)));
+                              },
+                              child: Center(
+                                child: Column(
+                                  children: [
+                                    Text(allSIList.surahS[index],style: TextStyle(
+                                        fontSize: 20, color: Colors.orange[600]),),
+                                    Text(allSIList.surahName[index],style: TextStyle(
+                                        fontSize: 15, color: Colors.greenAccent),),
+                                  ],
+                                ),
+                              )),
+                        ),
                       ),
                     );
                   }),

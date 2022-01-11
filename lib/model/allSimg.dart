@@ -704,10 +704,10 @@ class AllSIList{
     "assets/images/1.png",
   ];
   List<String> imaS112 = [
-    "assets/images/1.png",
+    "assets/images/604.png",
   ];
   List<String> imaS113 = [
-    "assets/images/1.png",
+    "assets/images/604.png",
   ];
   List<String> imaS114 = [
     "assets/images/604.png",
