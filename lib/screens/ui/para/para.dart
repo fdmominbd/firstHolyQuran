@@ -26,7 +26,7 @@ class _ParaState extends State<Para> {
         centerTitle: true,
         backgroundColor: Colors.white,
         title: Text(allPIList.paraS[widget.indexPosition], style: TextStyle(
-            fontSize: 25, color: Colors.deepPurpleAccent
+            fontSize: 25, color: Colors.deepPurpleAccent,
         ),),
         actions: [
           Column(

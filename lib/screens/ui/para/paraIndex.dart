@@ -40,30 +40,40 @@ class _ParaIndexState extends State<ParaIndex> {
                   itemBuilder: (context,index){
 
                     return Center(
-                      child: Container(
-                        width: w*0.75,
-                        child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(
-                                primary: Colors.black26,
-                                shape: RoundedRectangleBorder(
-                                    side: BorderSide(color: Colors.white)
-                                )
-                            ),
-                            onPressed: (){
-                              Navigator.push(context,
-                                  MaterialPageRoute(builder: (context)=>
-                                      Para(customPara: allPIList.allPara[index],indexPosition: index,)));
-                            },
-                            child: Center(
-                              child: Column(
-                                children: [
-                                  Text(allPIList.paraS[index],style: TextStyle(
-                                      fontSize: 25, color: Colors.orange),),
-                                  Text(allPIList.paraName[index],style: TextStyle(
-                                      fontSize: 15, color: Colors.greenAccent),),
-                                ],
+                      child: Padding(
+                        padding: const EdgeInsets.all(0.01),
+                        child: Container(
+                          width: w*0.75,
+                          child: ElevatedButton(
+                              style: ElevatedButton.styleFrom(
+                                  primary: Colors.black26,
+                                  shape: RoundedRectangleBorder(
+                                      side: BorderSide(color: Colors.white)
+                                  )
                               ),
-                            )),
+                              onPressed: (){
+                                Navigator.push(context,
+                                    MaterialPageRoute(builder: (context)=>
+                                        Para(customPara: allPIList.allPara[index],indexPosition: index,)));
+                              },
+                              child: Padding(
+                                padding: const EdgeInsets.only(left: 10, right: 10),
+                                child: Row(
+                                  children: [
+                                    Column(
+                                      children: [
+                                        Text(allPIList.paraS[index],style: TextStyle(
+                                            fontSize: 16, color: Colors.orange),),
+                                        Text(allPIList.paraName[index],style: TextStyle(
+                                            fontSize: 11, color: Colors.greenAccent),),
+                                      ],
+                                    ),
+                                    Spacer(),
+                                    Icon(Icons.arrow_right, color: Colors.white),
+                                  ],
+                                ),
+                              )),
+                        ),
                       ),
                     );
                   }),

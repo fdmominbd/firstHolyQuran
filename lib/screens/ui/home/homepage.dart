@@ -1,3 +1,5 @@
+import 'package:firatholyquran/screens/ui/other/infoAboutQuran.dart';
+import 'package:firatholyquran/screens/ui/other/needtoknow.dart';
 import 'package:firatholyquran/screens/ui/para/paraIndex.dart';
 import 'package:firatholyquran/screens/ui/surah/surahIndex.dart';
 import 'package:flutter/cupertino.dart';
@@ -42,7 +44,8 @@ class _HomePageState extends State<HomePage> {
         width: w,
         decoration: BoxDecoration(
             image: DecorationImage(
-                image: AssetImage('assets/images/qq1.jpg')
+                image: AssetImage('assets/images/qq1.jpg'),
+              fit: BoxFit.fitWidth
             )
         ),
 
@@ -60,25 +63,31 @@ class _HomePageState extends State<HomePage> {
                         )
                     ),
                     onPressed: (){},
-                    child: Column(
+                    child: Row(
                       children: [
-                        Row(
+                        Column(
                           children: [
-                            SizedBox(height: h*0.08,
-                              width: w*0.02,),
-                            Image(
-                                width: 40,
-                                height: 40,
-                                image: AssetImage('assets/images/quran1.png'),
-                                fit: BoxFit.fill
+                            Row(
+                              children: [
+                                SizedBox(height: h*0.08,
+                                  width: w*0.02,),
+                                Image(
+                                    width: 40,
+                                    height: 40,
+                                    image: AssetImage('assets/images/quran1.png'),
+                                    fit: BoxFit.fill
+                                ),
+                                SizedBox(width: w*0.03,),
+                                Text('RESUME', style: TextStyle(
+                                    fontSize: w*0.05, fontWeight: FontWeight.bold,
+                                    color: Colors.white
+                                ),),
+                              ],
                             ),
-                            SizedBox(width: w*0.03,),
-                            Text('RESUME', style: TextStyle(
-                                fontSize: w*0.05, fontWeight: FontWeight.bold,
-                                color: Colors.white
-                            ),),
                           ],
                         ),
+                        Spacer(),
+                        Icon(Icons.chevron_right, color: Colors.white),
                       ],
                     )),
               ),
@@ -99,25 +108,31 @@ class _HomePageState extends State<HomePage> {
                           MaterialPageRoute(builder: (context)=>
                               SurahIndex()));
                     },
-                    child: Column(
+                    child: Row(
                       children: [
-                        Row(
+                        Column(
                           children: [
-                            SizedBox(height: h*0.08,
-                              width: w*0.02,),
-                            Image(
-                                width: 40,
-                                height: 40,
-                                image: AssetImage('assets/images/sura1.png'),
-                                fit: BoxFit.fill
+                            Row(
+                              children: [
+                                SizedBox(height: h*0.08,
+                                  width: w*0.02,),
+                                Image(
+                                    width: 40,
+                                    height: 40,
+                                    image: AssetImage('assets/images/sura1.png'),
+                                    fit: BoxFit.fill
+                                ),
+                                SizedBox(width: w*0.03,),
+                                Text('SURAH Index',style: TextStyle(
+                                    fontSize: w*0.05, fontWeight: FontWeight.bold,
+                                    color: Colors.white
+                                ),),
+                              ],
                             ),
-                            SizedBox(width: w*0.03,),
-                            Text('SURAH Index',style: TextStyle(
-                                fontSize: w*0.05, fontWeight: FontWeight.bold,
-                                color: Colors.white
-                            ),),
                           ],
                         ),
+                        Spacer(),
+                        Icon(Icons.chevron_right, color: Colors.white),
                       ],
                     )),
               ),
@@ -138,25 +153,31 @@ class _HomePageState extends State<HomePage> {
                           MaterialPageRoute(builder: (context)=>
                               ParaIndex()));
                     },
-                    child: Column(
+                    child: Row(
                       children: [
-                        Row(
+                        Column(
                           children: [
-                            SizedBox(height: h*0.08,
-                              width: w*0.02,),
-                            Image(
-                                width: 40,
-                                height: 40,
-                                image: AssetImage('assets/images/para1.png'),
-                                fit: BoxFit.fill
+                            Row(
+                              children: [
+                                SizedBox(height: h*0.08,
+                                  width: w*0.02,),
+                                Image(
+                                    width: 40,
+                                    height: 40,
+                                    image: AssetImage('assets/images/para1.png'),
+                                    fit: BoxFit.fill
+                                ),
+                                SizedBox(width: w*0.03,),
+                                Text('PARA Index',style: TextStyle(
+                                    fontSize: w*0.05, fontWeight: FontWeight.bold,
+                                    color: Colors.white
+                                ),),
+                              ],
                             ),
-                            SizedBox(width: w*0.03,),
-                            Text('PARA Index',style: TextStyle(
-                                fontSize: w*0.05, fontWeight: FontWeight.bold,
-                                color: Colors.white
-                            ),),
                           ],
                         ),
+                        Spacer(),
+                        Icon(Icons.chevron_right, color: Colors.white),
                       ],
                     )),
               ),
@@ -172,26 +193,36 @@ class _HomePageState extends State<HomePage> {
                             side: BorderSide(color: Colors.white)
                         )
                     ),
-                    onPressed: (){},
-                    child: Column(
+                    onPressed: (){
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context)=>
+                              NeedtoKnow()));
+                    },
+                    child: Row(
                       children: [
-                        Row(
+                        Column(
                           children: [
-                            SizedBox(height: h*0.08,
-                              width: w*0.02,),
-                            Image(
-                                width: 40,
-                                height: 40,
-                                image: AssetImage('assets/images/Q1.png'),
-                                fit: BoxFit.fill
+                            Row(
+                              children: [
+                                SizedBox(height: h*0.08,
+                                  width: w*0.02,),
+                                Image(
+                                    width: 40,
+                                    height: 40,
+                                    image: AssetImage('assets/images/Q1.png'),
+                                    fit: BoxFit.fill
+                                ),
+                                SizedBox(width: w*0.03,),
+                                Text('Need to Know',style: TextStyle(
+                                    fontSize: w*0.05, fontWeight: FontWeight.bold,
+                                    color: Colors.white
+                                ),),
+                              ],
                             ),
-                            SizedBox(width: w*0.03,),
-                            Text('Need to Know',style: TextStyle(
-                                fontSize: w*0.05, fontWeight: FontWeight.bold,
-                                color: Colors.white
-                            ),),
                           ],
                         ),
+                        Spacer(),
+                        Icon(Icons.chevron_right, color: Colors.white),
                       ],
                     )),
               ),
@@ -207,26 +238,36 @@ class _HomePageState extends State<HomePage> {
                             side: BorderSide(color: Colors.white)
                         )
                     ),
-                    onPressed: (){},
-                    child: Column(
+                    onPressed: (){
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context)=>
+                              InfoAboutQuran()));
+                    },
+                    child: Row(
                       children: [
-                        Row(
+                        Column(
                           children: [
-                            SizedBox(height: h*0.08,
-                              width: w*0.02,),
-                            Image(
-                                width: 40,
-                                height: 40,
-                                image: AssetImage('assets/images/aboutQ1.png'),
-                                fit: BoxFit.fill
+                            Row(
+                              children: [
+                                SizedBox(height: h*0.08,
+                                  width: w*0.02,),
+                                Image(
+                                    width: 40,
+                                    height: 40,
+                                    image: AssetImage('assets/images/aboutQ1.png'),
+                                    fit: BoxFit.fill
+                                ),
+                                SizedBox(width: w*0.03,),
+                                Text('Info. About QURAN',style: TextStyle(
+                                    fontSize: w*0.05, fontWeight: FontWeight.bold,
+                                    color: Colors.white
+                                ),),
+                              ],
                             ),
-                            SizedBox(width: w*0.03,),
-                            Text('Info. About QURAN',style: TextStyle(
-                                fontSize: w*0.05, fontWeight: FontWeight.bold,
-                                color: Colors.white
-                            ),),
                           ],
                         ),
+                        Spacer(),
+                        Icon(Icons.chevron_right, color: Colors.white),
                       ],
                     )),
               ),

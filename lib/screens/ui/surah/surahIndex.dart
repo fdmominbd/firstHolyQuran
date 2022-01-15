@@ -41,7 +41,7 @@ class _SurahIndexState extends State<SurahIndex> {
 
                     return Center(
                       child: Padding(
-                        padding: const EdgeInsets.all(1.0),
+                        padding: const EdgeInsets.all(0.01),
                         child: Container(
                           width: w*0.75,
                           child: ElevatedButton(
@@ -56,13 +56,24 @@ class _SurahIndexState extends State<SurahIndex> {
                                     MaterialPageRoute(builder: (context)=>
                                         Surah(customSurah: allSIList.allSurah[index],indexPosition: index,)));
                               },
-                              child: Center(
-                                child: Column(
+                              child: Padding(
+                                padding: const EdgeInsets.only(left: 10, right: 10),
+                                child: Row(
                                   children: [
-                                    Text(allSIList.surahS[index],style: TextStyle(
-                                        fontSize: 20, color: Colors.orange[600]),),
-                                    Text(allSIList.surahName[index],style: TextStyle(
-                                        fontSize: 15, color: Colors.greenAccent),),
+                                    Column(
+                                      children: [
+                                        Text(allSIList.surahS[index],style: TextStyle(
+                                            fontSize: 16, color: Colors.orange[600]),
+                                            textAlign: TextAlign.right
+                                        ),
+                                        Text(allSIList.surahName[index],style: TextStyle(
+                                            fontSize: 11, color: Colors.greenAccent),
+                                            textAlign: TextAlign.right
+                                        ),
+                                      ],
+                                    ),
+                                    Spacer(),
+                                    Icon(Icons.arrow_right, color: Colors.white),
                                   ],
                                 ),
                               )),
