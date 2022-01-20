@@ -1,104 +1,5 @@
-class AllPIList{
-
-  late List<List<String>> allPara = <List<String>>[
-    imaPara1,
-    imaPara2,
-    imaPara3,
-    imaPara4,
-    imaPara5,
-    imaPara6,
-    imaPara7,
-    imaPara8,
-    imaPara9,
-    imaPara10,
-    imaPara11,
-    imaPara12,
-    imaPara13,
-    imaPara14,
-    imaPara15,
-    imaPara16,
-    imaPara17,
-    imaPara18,
-    imaPara19,
-    imaPara20,
-    imaPara21,
-    imaPara22,
-    imaPara23,
-    imaPara24,
-    imaPara25,
-    imaPara26,
-    imaPara27,
-    imaPara28,
-    imaPara29,
-    imaPara30
-  ];
-  List<String> paraS=[
-    "PARA - 01",
-    "PARA - 02",
-    "PARA - 03",
-    "PARA - 04",
-    "PARA - 05",
-    "PARA - 06",
-    "PARA - 07",
-    "PARA - 08",
-    "PARA - 09",
-    "PARA - 10",
-    "PARA - 11",
-    "PARA - 12",
-    "PARA - 13",
-    "PARA - 14",
-    "PARA - 15",
-    "PARA - 16",
-    "PARA - 17",
-    "PARA - 18",
-    "PARA - 19",
-    "PARA - 20",
-    "PARA - 21",
-    "PARA - 22",
-    "PARA - 23",
-    "PARA - 24",
-    "PARA - 25",
-    "PARA - 26",
-    "PARA - 27",
-    "PARA - 28",
-    "PARA - 29",
-    "PARA - 30"
-  ];
-  List<String> paraName=[
-    "Alif La'm Meem",
-    "Sayaqoolu",
-    "Tilkal Rusull",
-    "Lan Tana Loo",
-    "Wal Mohsanat",
-    "La Yuhibbullah",
-    "Wa Iza Samiu",
-    "Wa Lau Annana",
-    "Qalal Malao",
-    "Wa A'lamu",
-    "Yatazeroon",
-    "Wa Mamin Da'abat",
-    "Wa Ma Ubrioo",
-    "Rubama",
-    "Subhanallazi",
-    "Qal Alam",
-    "Aqtarabo",
-    "Qadd Aflaha",
-    "Wa Qalallazina",
-    "A'man Khalaq",
-    "Utlu Ma Oohi",
-    "Wa Manyaqnut",
-    "Wa Mali",
-    "Faman Azlam",
-    "Elahe Yuruddo",
-    "Ha'a Meem",
-    "Qala Fama Khatbukum",
-    "Qadd Sami Allah",
-    "Tabarakallazi",
-    "Amma Yatasa'aloon"
-  ];
-
-
-  List<String> imaPara1 = [
+class A11{
+  static List<String> p1=[
     "assets/images/1.png",
     "assets/images/2.png",
     "assets/images/3.png",
@@ -119,10 +20,8 @@ class AllPIList{
     "assets/images/18.png",
     "assets/images/19.png",
     "assets/images/20.png",
-    "assets/images/21.png"
-  ];
+    "assets/images/21.png",
 
-  List<String> imaPara2 = [
     "assets/images/22.png",
     "assets/images/23.png",
     "assets/images/24.png",
@@ -143,8 +42,7 @@ class AllPIList{
     "assets/images/39.png",
     "assets/images/40.png",
     "assets/images/41.png"
-  ];
-  List<String> imaPara3 = [
+
     "assets/images/42.png",
     "assets/images/43.png",
     "assets/images/44.png",
@@ -165,8 +63,7 @@ class AllPIList{
     "assets/images/59.png",
     "assets/images/60.png",
     "assets/images/61.png"
-  ];
-  List<String> imaPara4 = [
+
     "assets/images/62.png",
     "assets/images/63.png",
     "assets/images/64.png",
@@ -187,8 +84,7 @@ class AllPIList{
     "assets/images/79.png",
     "assets/images/80.png",
     "assets/images/81.png"
-  ];
-  List<String> imaPara5 = [
+
     "assets/images/82.png",
     "assets/images/83.png",
     "assets/images/84.png",
@@ -210,7 +106,7 @@ class AllPIList{
     "assets/images/100.png",
     "assets/images/101.png"
   ];
-  List<String> imaPara6 = [
+  static List<String> p6=[
     "assets/images/102.png",
     "assets/images/103.png",
     "assets/images/104.png",
@@ -231,8 +127,7 @@ class AllPIList{
     "assets/images/119.png",
     "assets/images/120.png",
     "assets/images/121.png"
-  ];
-  List<String> imaPara7 = [
+
     "assets/images/122.png",
     "assets/images/123.png",
     "assets/images/124.png",
@@ -253,8 +148,7 @@ class AllPIList{
     "assets/images/139.png",
     "assets/images/140.png",
     "assets/images/141.png"
-  ];
-  List<String> imaPara8 = [
+
     "assets/images/142.png",
     "assets/images/143.png",
     "assets/images/144.png",
@@ -276,8 +170,6 @@ class AllPIList{
     "assets/images/160.png",
     "assets/images/161.png"
 
-  ];
-  List<String> imaPara9 = [
     "assets/images/162.png",
     "assets/images/163.png",
     "assets/images/164.png",
@@ -298,8 +190,7 @@ class AllPIList{
     "assets/images/179.png",
     "assets/images/180.png",
     "assets/images/181.png",
-  ];
-  List<String> imaPara10 = [
+
     "assets/images/182.png",
     "assets/images/183.png",
     "assets/images/184.png",
@@ -321,7 +212,7 @@ class AllPIList{
     "assets/images/200.png",
     "assets/images/201.png",
   ];
-  List<String> imaPara11 = [
+  static List<String> p11=[
     "assets/images/202.png",
     "assets/images/203.png",
     "assets/images/204.png",
@@ -342,8 +233,7 @@ class AllPIList{
     "assets/images/219.png",
     "assets/images/220.png",
     "assets/images/221.png",
-  ];
-  List<String> imaPara12 = [
+
     "assets/images/222.png",
     "assets/images/223.png",
     "assets/images/224.png",
@@ -364,8 +254,7 @@ class AllPIList{
     "assets/images/239.png",
     "assets/images/240.png",
     "assets/images/241.png",
-  ];
-  List<String> imaPara13 = [
+
     "assets/images/242.png",
     "assets/images/243.png",
     "assets/images/244.png",
@@ -386,8 +275,7 @@ class AllPIList{
     "assets/images/259.png",
     "assets/images/260.png",
     "assets/images/261.png",
-  ];
-  List<String> imaPara14 = [
+
     "assets/images/262.png",
     "assets/images/263.png",
     "assets/images/264.png",
@@ -408,8 +296,7 @@ class AllPIList{
     "assets/images/279.png",
     "assets/images/280.png",
     "assets/images/281.png",
-  ];
-  List<String> imaPara15 = [
+
     "assets/images/282.png",
     "assets/images/283.png",
     "assets/images/284.png",
@@ -431,7 +318,7 @@ class AllPIList{
     "assets/images/300.png",
     "assets/images/301.png",
   ];
-  List<String> imaPara16 = [
+  static List<String> p16=[
     "assets/images/302.png",
     "assets/images/303.png",
     "assets/images/304.png",
@@ -452,9 +339,7 @@ class AllPIList{
     "assets/images/319.png",
     "assets/images/320.png",
     "assets/images/321.png",
-  ];
 
-  List<String> imaPara17 = [
     "assets/images/322.png",
     "assets/images/323.png",
     "assets/images/324.png",
@@ -475,8 +360,7 @@ class AllPIList{
     "assets/images/339.png",
     "assets/images/340.png",
     "assets/images/341.png",
-  ];
-  List<String> imaPara18 = [
+
     "assets/images/342.png",
     "assets/images/343.png",
     "assets/images/344.png",
@@ -497,8 +381,7 @@ class AllPIList{
     "assets/images/359.png",
     "assets/images/360.png",
     "assets/images/361.png"
-  ];
-  List<String> imaPara19 = [
+
     "assets/images/362.png",
     "assets/images/363.png",
     "assets/images/364.png",
@@ -519,8 +402,7 @@ class AllPIList{
     "assets/images/379.png",
     "assets/images/380.png",
     "assets/images/381.png"
-  ];
-  List<String> imaPara20 = [
+
     "assets/images/382.png",
     "assets/images/383.png",
     "assets/images/384.png",
@@ -541,8 +423,8 @@ class AllPIList{
     "assets/images/399.png",
     "assets/images/400.png",
     "assets/images/401.png"
- ];
-  List<String> imaPara21 = [
+  ];
+  static List<String> p21=[
     "assets/images/402.png",
     "assets/images/403.png",
     "assets/images/404.png",
@@ -563,8 +445,7 @@ class AllPIList{
     "assets/images/419.png",
     "assets/images/420.png",
     "assets/images/421.png"
-  ];
-  List<String> imaPara22 = [
+
     "assets/images/422.png",
     "assets/images/423.png",
     "assets/images/424.png",
@@ -585,8 +466,7 @@ class AllPIList{
     "assets/images/439.png",
     "assets/images/440.png",
     "assets/images/441.png"
-  ];
-  List<String> imaPara23 = [
+
     "assets/images/442.png",
     "assets/images/443.png",
     "assets/images/444.png",
@@ -607,8 +487,7 @@ class AllPIList{
     "assets/images/459.png",
     "assets/images/460.png",
     "assets/images/461.png"
-  ];
-  List<String> imaPara24 = [
+
     "assets/images/462.png",
     "assets/images/463.png",
     "assets/images/464.png",
@@ -629,8 +508,7 @@ class AllPIList{
     "assets/images/479.png",
     "assets/images/480.png",
     "assets/images/481.png"
-  ];
-  List<String> imaPara25 = [
+
     "assets/images/482.png",
     "assets/images/483.png",
     "assets/images/484.png",
@@ -652,7 +530,7 @@ class AllPIList{
     "assets/images/500.png",
     "assets/images/501.png"
   ];
-  List<String> imaPara26 = [
+  static List<String> p26=[
     "assets/images/502.png",
     "assets/images/503.png",
     "assets/images/504.png",
@@ -673,8 +551,7 @@ class AllPIList{
     "assets/images/519.png",
     "assets/images/520.png",
     "assets/images/521.png"
-  ];
-  List<String> imaPara27 = [
+
     "assets/images/522.png",
     "assets/images/523.png",
     "assets/images/524.png",
@@ -695,8 +572,7 @@ class AllPIList{
     "assets/images/539.png",
     "assets/images/540.png",
     "assets/images/541.png"
-  ];
-  List<String> imaPara28 = [
+
     "assets/images/542.png",
     "assets/images/543.png",
     "assets/images/544.png",
@@ -717,8 +593,7 @@ class AllPIList{
     "assets/images/559.png",
     "assets/images/560.png",
     "assets/images/561.png"
-  ];
-  List<String> imaPara29 = [
+
     "assets/images/562.png",
     "assets/images/563.png",
     "assets/images/564.png",
@@ -739,8 +614,7 @@ class AllPIList{
     "assets/images/579.png",
     "assets/images/580.png",
     "assets/images/581.png"
-  ];
-  List<String> imaPara30 = [
+
     "assets/images/582.png",
     "assets/images/583.png",
     "assets/images/584.png",
@@ -760,9 +634,8 @@ class AllPIList{
     "assets/images/598.png",
     "assets/images/599.png",
     "assets/images/600.png",
-    "assets/images/601.png",
-    "assets/images/602.png",
-    "assets/images/603.png",
-    "assets/images/604.png"
+    "assets/images/601.png"
   ];
+
+
 }

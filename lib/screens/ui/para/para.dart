@@ -28,13 +28,7 @@ class _ParaState extends State<Para> {
         title: Text(allPIList.paraS[widget.indexPosition], style: TextStyle(
             fontSize: 25, color: Colors.deepPurpleAccent,
         ),),
-        actions: [
-          Column(
-            children: [
-              Center(child: Text(""))
-            ],
-          )
-        ],
+        actions: [],
       ),
       backgroundColor: Colors.white,
       body: Builder(
@@ -51,12 +45,15 @@ class _ParaState extends State<Para> {
                 .map((item) => Container(
               height:h,
               width:w,
-              child: Center(
-                  child: Image.asset(
-                    item,
-                    fit: BoxFit.fitHeight,
-                    width: w,
-                  )
+              child: Padding(
+                padding: const EdgeInsets.only(top: 0.01),
+                child: Center(
+                    child: Image.asset(
+                      item,
+                      fit: BoxFit.fitHeight,
+                      width: w,
+                    )
+                ),
               ),
             ),)
                 .toList(),

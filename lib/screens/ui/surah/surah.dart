@@ -22,7 +22,7 @@ class _SurahState extends State<Surah> {
       appBar: AppBar(
         backgroundColor: Colors.white,
         centerTitle: true,
-        title: Text(allSIList.surahS[widget.indexPosition],style: TextStyle(
+        title: Text(allSIList.surahN[widget.indexPosition],style: TextStyle(
             fontSize: 26, color: Colors.pink),),
       ),
       body: Builder(
@@ -32,16 +32,20 @@ class _SurahState extends State<Surah> {
                 height: h,
                 viewportFraction: 1.0,
                 enlargeCenterPage: false,
+                enableInfiniteScroll: false,
                 reverse: true
               // autoPlay: false,
             ),
             items: widget.customSurah
                 .map((item) => Container(
-              child: Center(
-                child: Image.asset(
-                  item,
-                  fit: BoxFit.fitHeight,
-                  width: w,
+              child: Padding(
+                padding: const EdgeInsets.only(top: 0.01),
+                child: Center(
+                  child: Image.asset(
+                    item,
+                    fit: BoxFit.fitHeight,
+                    width: w,
+                  ),
                 ),
               ),
             ))

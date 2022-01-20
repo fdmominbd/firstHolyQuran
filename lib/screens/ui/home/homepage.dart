@@ -259,7 +259,7 @@ class _HomePageState extends State<HomePage> {
                                 ),
                                 SizedBox(width: w*0.03,),
                                 Text('Info. About QURAN',style: TextStyle(
-                                    fontSize: w*0.05, fontWeight: FontWeight.bold,
+                                    fontSize: w*0.04, fontWeight: FontWeight.bold,
                                     color: Colors.white
                                 ),),
                               ],

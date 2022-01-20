@@ -57,26 +57,31 @@ class _SurahIndexState extends State<SurahIndex> {
                                         Surah(customSurah: allSIList.allSurah[index],indexPosition: index,)));
                               },
                               child: Padding(
-                                padding: const EdgeInsets.only(left: 10, right: 10),
+                                padding: const EdgeInsets.only(right: 15,left: 9),
                                 child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    Column(
+                                    Row(
                                       children: [
                                         Text(allSIList.surahS[index],style: TextStyle(
-                                            fontSize: 16, color: Colors.orange[600]),
-                                            textAlign: TextAlign.right
-                                        ),
-                                        Text(allSIList.surahName[index],style: TextStyle(
-                                            fontSize: 11, color: Colors.greenAccent),
-                                            textAlign: TextAlign.right
-                                        ),
+                                            fontSize: 20, color: Colors.deepOrange[600]))
+                                      ],
+                                    ),
+                                    SizedBox(width: 10,),
+                                    Column(
+                                      children: [
+                                        Text(allSIList.surahN[index],style: TextStyle(
+                                            fontSize: 17, color: Colors.white)),
+                                        Text(allSIList.ayat[index],style: TextStyle(
+                                            fontSize: 11, color: Colors.greenAccent[200]))
                                       ],
                                     ),
                                     Spacer(),
                                     Icon(Icons.arrow_right, color: Colors.white),
                                   ],
                                 ),
-                              )),
+                              )
+                          ),
                         ),
                       ),
                     );
