@@ -46,7 +46,7 @@ class _SurahIndexState extends State<SurahIndex> {
                           width: w*0.75,
                           child: ElevatedButton(
                               style: ElevatedButton.styleFrom(
-                                  primary: Colors.black26,
+                                  primary: Colors.black87,
                                   shape: RoundedRectangleBorder(
                                       side: BorderSide(color: Colors.white)
                                   )
@@ -57,9 +57,8 @@ class _SurahIndexState extends State<SurahIndex> {
                                         Surah(customSurah: allSIList.allSurah[index],indexPosition: index,)));
                               },
                               child: Padding(
-                                padding: const EdgeInsets.only(right: 15,left: 9),
+                                padding: const EdgeInsets.only(left: 10),
                                 child: Row(
-                                  mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     Row(
                                       children: [
@@ -71,9 +70,11 @@ class _SurahIndexState extends State<SurahIndex> {
                                     Column(
                                       children: [
                                         Text(allSIList.surahN[index],style: TextStyle(
-                                            fontSize: 17, color: Colors.white)),
+                                            fontSize: 17, color: Colors.white),
+                                          textAlign: TextAlign.left,),
                                         Text(allSIList.ayat[index],style: TextStyle(
-                                            fontSize: 11, color: Colors.greenAccent[200]))
+                                            fontSize: 11, color: Colors.greenAccent[200]),
+                                          textAlign: TextAlign.right,)
                                       ],
                                     ),
                                     Spacer(),

@@ -46,7 +46,7 @@ class _ParaIndexState extends State<ParaIndex> {
                           width: w*0.75,
                           child: ElevatedButton(
                               style: ElevatedButton.styleFrom(
-                                  primary: Colors.black26,
+                                  primary: Colors.black87,
                                   shape: RoundedRectangleBorder(
                                       side: BorderSide(color: Colors.white)
                                   )
@@ -57,7 +57,7 @@ class _ParaIndexState extends State<ParaIndex> {
                                         Para(customPara: allPIList.allPara[index],indexPosition: index,)));
                               },
                               child: Padding(
-                                padding: const EdgeInsets.only(left: 10, right: 10),
+                                padding: const EdgeInsets.only(left: 10,),
                                 child: Row(
                                   children: [
                                     Column(

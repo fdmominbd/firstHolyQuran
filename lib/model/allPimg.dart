@@ -331,7 +331,7 @@ class AllPIList{
     "assets/images/208.png",
     "assets/images/209.png",
     "assets/images/210.png",
-    "assets/images/211.png"
+    "assets/images/211.png",
     "assets/images/212.png",
     "assets/images/213.png",
     "assets/images/214.png",
@@ -353,7 +353,7 @@ class AllPIList{
     "assets/images/228.png",
     "assets/images/229.png",
     "assets/images/230.png",
-    "assets/images/231.png"
+    "assets/images/231.png",
     "assets/images/232.png",
     "assets/images/233.png",
     "assets/images/234.png",
@@ -375,7 +375,7 @@ class AllPIList{
     "assets/images/248.png",
     "assets/images/249.png",
     "assets/images/250.png",
-    "assets/images/251.png"
+    "assets/images/251.png",
     "assets/images/252.png",
     "assets/images/253.png",
     "assets/images/254.png",
@@ -397,7 +397,7 @@ class AllPIList{
     "assets/images/268.png",
     "assets/images/269.png",
     "assets/images/270.png",
-    "assets/images/271.png"
+    "assets/images/271.png",
     "assets/images/272.png",
     "assets/images/273.png",
     "assets/images/274.png",
@@ -419,7 +419,7 @@ class AllPIList{
     "assets/images/288.png",
     "assets/images/289.png",
     "assets/images/290.png",
-    "assets/images/291.png"
+    "assets/images/291.png",
     "assets/images/292.png",
     "assets/images/293.png",
     "assets/images/294.png",
@@ -665,7 +665,7 @@ class AllPIList{
     "assets/images/511.png",
     "assets/images/512.png",
     "assets/images/513.png",
-    "assets/images/51.png",
+    "assets/images/514.png",
     "assets/images/515.png",
     "assets/images/516.png",
     "assets/images/517.png",
