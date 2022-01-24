@@ -38,6 +38,7 @@ class _ParaState extends State<Para> {
                 height:h,
                 viewportFraction: 1.0,
                 enlargeCenterPage: true,
+                enableInfiniteScroll: false,
                 reverse: true
               // autoPlay: false,
             ),

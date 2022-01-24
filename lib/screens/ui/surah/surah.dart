@@ -20,6 +20,9 @@ class _SurahState extends State<Surah> {
     AllSIList allSIList=AllSIList();
     return Scaffold(
       appBar: AppBar(
+        leading: BackButton(
+          color: Colors.black,
+        ),
         backgroundColor: Colors.white,
         centerTitle: true,
         title: Text(allSIList.surahN[widget.indexPosition],style: TextStyle(
