@@ -29,7 +29,7 @@ class _NeedtoKnowState extends State<NeedtoKnow> {
             children: [
               SizedBox(height: 4,),
               Container(
-                height: 40,
+                height: 50,
                 width: w*20,
                 decoration: BoxDecoration(
           boxShadow: [
@@ -53,9 +53,9 @@ class _NeedtoKnowState extends State<NeedtoKnow> {
                             width: 30.0,
                             image: AssetImage("assets/horof/mim.png",)),
                         SizedBox(width: 5,),
-                        Text("compulsory STOP - otherwise meaning is Changed",style:TextStyle(
-                          fontSize: 15
-                        ),maxLines: 2, textAlign: TextAlign.justify,)
+                        Text("compulsory STOP - otherwise\nmeaning is Changed",style:TextStyle(
+                          fontSize: 13
+                        ),textAlign: TextAlign.justify,)
                       ],
                     ),
                   ),
