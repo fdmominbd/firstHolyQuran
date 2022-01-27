@@ -54,8 +54,8 @@ class _NeedtoKnowState extends State<NeedtoKnow> {
                             image: AssetImage("assets/horof/mim.png",)),
                         SizedBox(width: 5,),
                         Text("compulsory STOP - otherwise meaning is Changed",style:TextStyle(
-                          fontSize: 17
-                        ),maxLines: 2,)
+                          fontSize: 15
+                        ),maxLines: 2, textAlign: TextAlign.justify,)
                       ],
                     ),
                   ),
@@ -88,7 +88,7 @@ class _NeedtoKnowState extends State<NeedtoKnow> {
                             image: AssetImage("assets/horof/aen.png",)),
                         SizedBox(width: 5,),
                         Text("STOP - End of a sentence",style:TextStyle(
-                            fontSize: 17
+                            fontSize: 15
                         ),maxLines: 2,)
                       ],
                     ),
@@ -122,7 +122,7 @@ class _NeedtoKnowState extends State<NeedtoKnow> {
                             image: AssetImage("assets/horof/toa.png",)),
                         SizedBox(width: 5,),
                         Text("Should STOP - End of a sentence",style:TextStyle(
-                            fontSize: 17
+                            fontSize: 15
                         ),maxLines: 2,)
                       ],
                     ),
@@ -156,7 +156,7 @@ class _NeedtoKnowState extends State<NeedtoKnow> {
                             image: AssetImage("assets/horof/jim.png",)),
                         SizedBox(width: 5,),
                         Text("Can STOP or continue",style:TextStyle(
-                            fontSize: 17
+                            fontSize: 15
                         ),maxLines: 2,)
                       ],
                     ),
@@ -190,7 +190,7 @@ class _NeedtoKnowState extends State<NeedtoKnow> {
                             image: AssetImage("assets/horof/lam.png",)),
                         SizedBox(width: 5,),
                         Text("Better not to STOP",style:TextStyle(
-                            fontSize: 17
+                            fontSize: 15
                         ),maxLines: 2,)
                       ],
                     ),
@@ -224,7 +224,7 @@ class _NeedtoKnowState extends State<NeedtoKnow> {
                             image: AssetImage("assets/horof/kop.png",)),
                         SizedBox(width: 5,),
                         Text("It is Better not to STOP",style:TextStyle(
-                            fontSize: 17
+                            fontSize: 15
                         ),maxLines: 2,)
                       ],
                     ),
@@ -258,7 +258,7 @@ class _NeedtoKnowState extends State<NeedtoKnow> {
                             image: AssetImage("assets/horof/kop-fa.png",)),
                         SizedBox(width: 5,),
                         Text("Better to STOP",style:TextStyle(
-                            fontSize: 17
+                            fontSize: 15
                         ),maxLines: 2,)
                       ],
                     ),
@@ -292,7 +292,7 @@ class _NeedtoKnowState extends State<NeedtoKnow> {
                             image: AssetImage("assets/horof/jha.png",)),
                         SizedBox(width: 5,),
                         Text("Must continue, can take a breath",style:TextStyle(
-                            fontSize: 17
+                            fontSize: 15
                         ),maxLines: 2,)
                       ],
                     ),
@@ -326,7 +326,7 @@ class _NeedtoKnowState extends State<NeedtoKnow> {
                             image: AssetImage("assets/horof/sot.png",)),
                         SizedBox(width: 5,),
                         Text("Must continue, can take a breath",style:TextStyle(
-                            fontSize: 17
+                            fontSize: 15
                         ),maxLines: 2,)
                       ],
                     ),

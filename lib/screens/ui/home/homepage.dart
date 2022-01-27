@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
       ),
       backgroundColor: Colors.black,
       drawer: Padding(
-        padding: const EdgeInsets.only(top: 70),
+        padding: const EdgeInsets.only(top: 60),
         child: Container(
           width: 200,
           child: SafeArea(
@@ -62,7 +62,7 @@ class _HomePageState extends State<HomePage> {
                       child: DrawerHeader(
                           decoration: BoxDecoration(
                               image: DecorationImage(
-                                image: AssetImage('assets/image/quran1.png'),
+                                image: AssetImage('assets/images/quran1.png'),
                                 fit: BoxFit.cover,
                               )
                           ),

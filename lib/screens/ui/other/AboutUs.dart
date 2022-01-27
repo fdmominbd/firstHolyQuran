@@ -41,7 +41,7 @@ class _AboutUsState extends State<AboutUs> {
             Image(
               width: 100.0,
               height: 100.0,
-              image: AssetImage('assets/image/quran1.png'),
+              image: AssetImage('assets/images/quran1.png'),
               fit: BoxFit.cover,),
             SizedBox(height: h*0.05,),
             Text('Version : 1.0.0',style: TextStyle(fontSize: 17, color: Colors.orange,),),
