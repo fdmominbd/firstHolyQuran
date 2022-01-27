@@ -35,6 +35,7 @@ class _HomePageState extends State<HomePage> {
     final double w = MediaQuery.of(context).size.width;
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.indigo[900],
         toolbarHeight: 60,
         centerTitle: true,
         title: Text(

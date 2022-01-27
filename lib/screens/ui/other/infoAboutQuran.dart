@@ -72,7 +72,7 @@ class _InfoAboutQuranState extends State<InfoAboutQuran> {
                       textAlign: TextAlign.justify,))
                 ),
                 Container(
-                    height: 50,
+                    height: 60,
                     width: 380,
                     decoration: BoxDecoration(
                       boxShadow: [
