@@ -72,7 +72,7 @@ class _InfoAboutQuranState extends State<InfoAboutQuran> {
                       textAlign: TextAlign.justify,))
                 ),
                 Container(
-                    height: 60,
+                    height: 50,
                     width: 380,
                     decoration: BoxDecoration(
                       boxShadow: [
@@ -114,7 +114,7 @@ class _InfoAboutQuranState extends State<InfoAboutQuran> {
                       textAlign: TextAlign.justify,))
                 ),
                 Container(
-                    height: 25,
+                    height: 35,
                     width: 380,
                     decoration: BoxDecoration(
                       boxShadow: [
@@ -130,7 +130,7 @@ class _InfoAboutQuranState extends State<InfoAboutQuran> {
                       color: Colors.white,
                     ),
                     child: Padding(
-                      padding: const EdgeInsets.all(10),
+                      padding: const EdgeInsets.only(left: 15,top: 3,bottom: 3),
                       child: Text("30",
                         style: TextStyle(fontSize: 12),textAlign: TextAlign.justify,),
                     )
@@ -155,7 +155,7 @@ class _InfoAboutQuranState extends State<InfoAboutQuran> {
                       textAlign: TextAlign.justify,))
                 ),
                 Container(
-                    height: 25,
+                    height: 35,
                     width: 380,
                     decoration: BoxDecoration(
                       boxShadow: [
@@ -171,7 +171,7 @@ class _InfoAboutQuranState extends State<InfoAboutQuran> {
                       color: Colors.white,
                     ),
                     child: Padding(
-                      padding: const EdgeInsets.all(10),
+                      padding: const EdgeInsets.only(left: 15,top: 3,bottom: 3),
                       child: Text("114",
                         style: TextStyle(fontSize: 12),textAlign: TextAlign.justify,),
                     )
@@ -196,7 +196,7 @@ class _InfoAboutQuranState extends State<InfoAboutQuran> {
                       textAlign: TextAlign.justify,))
                 ),
                 Container(
-                    height: 30,
+                    height: 40,
                     width: 380,
                     decoration: BoxDecoration(
                       boxShadow: [
@@ -212,7 +212,7 @@ class _InfoAboutQuranState extends State<InfoAboutQuran> {
                       color: Colors.white,
                     ),
                     child: Padding(
-                      padding: const EdgeInsets.all(10),
+                      padding: const EdgeInsets.only(left: 15,top: 3,bottom: 3),
                       child: Text("Makki 86.\nMadani 28.",
                         style: TextStyle(fontSize: 12),textAlign: TextAlign.justify,),
                     )
@@ -237,7 +237,7 @@ class _InfoAboutQuranState extends State<InfoAboutQuran> {
                       textAlign: TextAlign.justify,))
                 ),
                 Container(
-                    height: 210,
+                    height: 240,
                     width: 380,
                     decoration: BoxDecoration(
                       boxShadow: [
@@ -253,7 +253,7 @@ class _InfoAboutQuranState extends State<InfoAboutQuran> {
                       color: Colors.white,
                     ),
                     child: Padding(
-                      padding: const EdgeInsets.all(10),
+                      padding: const EdgeInsets.only(left: 15,top: 3,bottom: 3),
                       child: Text("14 \n\n 1. Al-A'raf, ayat 206 \n 2. Ar-Ra'd, ayat 15 \n 3. An-Nahl, ayat 50 \n 4. Al Bani-Israel, ayat 109 \n 5. Maryam, ayat 58 \n 6. Al-Hajj, ayat 18 \n 7. Al-Hajj, ayat 77 \n 8. Al-Furqan, ayat 60 \n 9. An-Naml, ayat 26 \n 10. As-Sajdah, ayat 15 \n 11. Fussilat/Ha-mim, ayat 38 \n 12. An-Najm, ayat 62 \n 13. Al-Inshiqaq, ayat 21 \n 14. Al-Alaq, ayat 19.",
                         style: TextStyle(fontSize: 12),textAlign: TextAlign.justify,),
                     )
@@ -278,7 +278,7 @@ class _InfoAboutQuranState extends State<InfoAboutQuran> {
                       textAlign: TextAlign.justify,))
                 ),
                 Container(
-                    height: 25,
+                    height: 35,
                     width: 380,
                     decoration: BoxDecoration(
                       boxShadow: [
@@ -294,7 +294,7 @@ class _InfoAboutQuranState extends State<InfoAboutQuran> {
                       color: Colors.white,
                     ),
                     child: Padding(
-                      padding: const EdgeInsets.all(10),
+                      padding: const EdgeInsets.only(left: 15,top: 3,bottom: 3),
                       child: Text("6,236",
                         style: TextStyle(fontSize: 12),textAlign: TextAlign.justify,),
                     )
@@ -319,7 +319,7 @@ class _InfoAboutQuranState extends State<InfoAboutQuran> {
                       textAlign: TextAlign.justify,))
                 ),
                 Container(
-                    height: 25,
+                    height: 35,
                     width: 380,
                     decoration: BoxDecoration(
                       boxShadow: [
@@ -335,7 +335,7 @@ class _InfoAboutQuranState extends State<InfoAboutQuran> {
                       color: Colors.white,
                     ),
                     child: Padding(
-                      padding: const EdgeInsets.all(10),
+                      padding: const EdgeInsets.only(left: 15,top: 3,bottom: 3),
                       child: Text("558",
                         style: TextStyle(fontSize: 12),textAlign: TextAlign.justify,),
                     )
@@ -360,7 +360,7 @@ class _InfoAboutQuranState extends State<InfoAboutQuran> {
                       textAlign: TextAlign.justify,))
                 ),
                 Container(
-                    height: 25,
+                    height: 35,
                     width: 380,
                     decoration: BoxDecoration(
                       boxShadow: [
@@ -376,7 +376,7 @@ class _InfoAboutQuranState extends State<InfoAboutQuran> {
                       color: Colors.white,
                     ),
                     child: Padding(
-                      padding: const EdgeInsets.all(10),
+                      padding: const EdgeInsets.only(left: 15,top: 3,bottom: 3),
                       child: Text("7",
                         style: TextStyle(fontSize: 12),textAlign: TextAlign.justify,),
                     )
@@ -401,7 +401,7 @@ class _InfoAboutQuranState extends State<InfoAboutQuran> {
                       textAlign: TextAlign.justify,))
                 ),
                 Container(
-                    height: 25,
+                    height: 35,
                     width: 380,
                     decoration: BoxDecoration(
                       boxShadow: [
@@ -417,7 +417,7 @@ class _InfoAboutQuranState extends State<InfoAboutQuran> {
                       color: Colors.white,
                     ),
                     child: Padding(
-                      padding: const EdgeInsets.all(10),
+                      padding: const EdgeInsets.only(left: 15,top: 3,bottom: 3),
                       child: Text("77,934",
                         style: TextStyle(fontSize: 12),textAlign: TextAlign.justify,),
                     )
@@ -442,7 +442,7 @@ class _InfoAboutQuranState extends State<InfoAboutQuran> {
                       textAlign: TextAlign.justify,))
                 ),
                 Container(
-                    height: 25,
+                    height: 35,
                     width: 380,
                     decoration: BoxDecoration(
                       boxShadow: [
@@ -458,7 +458,7 @@ class _InfoAboutQuranState extends State<InfoAboutQuran> {
                       color: Colors.white,
                     ),
                     child: Padding(
-                      padding: const EdgeInsets.all(10),
+                      padding: const EdgeInsets.only(left: 15,top: 3,bottom: 3),
                       child: Text("3,23,670",
                         style: TextStyle(fontSize: 12),textAlign: TextAlign.justify,),
                     )

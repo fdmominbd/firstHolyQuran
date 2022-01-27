@@ -39,8 +39,8 @@ class _AboutUsState extends State<AboutUs> {
             Text('fd.mominbd@gmail.com',style: TextStyle(fontSize: 14,color: Colors.white60 ),),
             SizedBox(height: h*0.01,),
             Image(
-              width: 120.0,
-              height: 130.0,
+              width: 150,
+              height: 150,
               image: AssetImage('assets/images/quran1.png'),
               fit: BoxFit.cover,),
             SizedBox(height: h*0.05,),
