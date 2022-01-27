@@ -62,7 +62,7 @@ class _HomePageState extends State<HomePage> {
                       child: DrawerHeader(
                           decoration: BoxDecoration(
                               image: DecorationImage(
-                                image: AssetImage('assets/image/imag1.png'),
+                                image: AssetImage('assets/image/quran1.png'),
                                 fit: BoxFit.cover,
                               )
                           ),
