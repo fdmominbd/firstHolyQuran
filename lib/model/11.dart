@@ -636,6 +636,4 @@ class A11{
     "assets/images/600.png",
     "assets/images/601.png"
   ];
-
-
 }
