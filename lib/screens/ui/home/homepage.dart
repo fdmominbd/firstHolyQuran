@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:alert_dialog/alert_dialog.dart';
 import 'package:firatholyquran/screens/ui/other/AboutUs.dart';
+import 'package:firatholyquran/screens/ui/other/Resume.dart';
 import 'package:firatholyquran/screens/ui/other/infoAboutQuran.dart';
 import 'package:firatholyquran/screens/ui/other/needtoknow.dart';
 import 'package:firatholyquran/screens/ui/para/paraIndex.dart';
@@ -176,7 +177,11 @@ class _HomePageState extends State<HomePage> {
                               side: BorderSide(color: Colors.white)
                           )
                       ),
-                      onPressed: (){},
+                      onPressed: (){
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context)=>
+                                Resume()));
+                      },
                       child: Row(
                         children: [
                           Column(

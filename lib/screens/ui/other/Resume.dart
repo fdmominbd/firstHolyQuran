@@ -30,7 +30,7 @@ class _ResumeState extends State<Resume> {
           onPressed: (){
 
           },
-          child: Text('New Reding'),
+          child: Text(''),
         ),
       ),
     );
